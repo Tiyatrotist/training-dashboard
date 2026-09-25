@@ -17,7 +17,7 @@
    ============================================================ */
 
 import { useState } from "react";
-import { LABEL_STYLE, PILL_STYLE, PRIMARY_BTN_STYLE } from "./NewPlanDialog";
+import { LABEL_STYLE, PILL_STYLE, PRIMARY_BTN_STYLE } from "./new-plan-dialog-styles";
 import {
   FOCUS_LABELS,
   levelFromExperience,
