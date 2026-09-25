@@ -1,12 +1,6 @@
 import { GlassCard } from "../../components/GlassCard";
 import type { HeroBriefing } from "./hero-view-model";
-
-/** Auch von HeroPage genutzt (Status-Punkt neben dem Workout-Namen). */
-export const LEVEL_COLOR: Record<HeroBriefing["level"], string> = {
-  green: "var(--ok)",
-  yellow: "var(--warn)",
-  red: "var(--danger)",
-};
+import { LEVEL_COLOR } from "./briefing-level";
 
 /** Status-Label (Punkt+Text-Stil, konsistent mit ReadinessCard.tsx) statt der
  *  bisherigen 3-Boxen-Ampel. Beide Karten beantworten "wie geht's mir heute"
